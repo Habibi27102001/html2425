@@ -1,4 +1,4 @@
-- Curs Html
+- Curs HTML
 ```
-touch readme.md
+touch README.md
 ```
