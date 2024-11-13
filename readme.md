@@ -2,4 +2,3 @@
 ```
 touch README.md
 ```
-I.Primul Capitol
