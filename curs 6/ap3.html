@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curs 6 Aplicatia 3</title>
+</head>
+<body>
+    
+<h1>Formular de contact</h1>
+<form action="" method="post">
+    <div>
+        <label for="oras">Orașul</label>
+        <select name="oras" id="oras">
+            <option value="1">Bacău</option>
+            <option value="2">Buzău</option>
+            <option value="3">Dolj</option>
+            <option value="4">Iași</option>
+        </select>
+    </div>
+    <div>
+        <label for="cursuri">Cursuri</label>
+        <select name="cursuri" id="cursuri" multiple>
+            <option value="css">CSS</option>
+            <option value="html">HTML</option>
+            <option value="js">JavaScript</option>
+            <option value="vue">Vue.js</option>
+            <option value="node">Node.js</option>
+        </select>
+    </div>
+    <div>
+        <label for="mesaj">Mesaj</label>
+        <textarea name="mesaj" id="mesaj"></textarea>
+    </div>
+    <div>
+        <fieldset>
+            <legend>Program cursuri</legend>
+            <input type="radio" name="program" id="dimineata" value="dimineata">
+            <label for="dimineata">Dimineața</label>
+            <input type="radio" name="program" id="pranz" value="pranz" checked>
+            <label for="pranz">Prânz</label>
+            <input type="radio" name="program" id="seara" value="seara">
+            <label for="seara">Seara</label>
+        </fieldset>
+    </div>
+</form>
+
+</body>
+</html>
