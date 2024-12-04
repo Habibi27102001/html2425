@@ -721,4 +721,9 @@ nav ul li a {
       padding: 50px 40px;
     }
   }
-  
+  /* GENERAL */
+  .titlu {
+    color: aqua;
+    font-size: 25px;
+    border-bottom: 2px solid red;
+  }
