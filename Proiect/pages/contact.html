@@ -44,45 +44,95 @@
     </header>
     <!-- STOP HEADER -->
      <main>
-        <h1>Contact</h1>
-        <form id="contact" action="" method="post">
-            <div>
-                <label for="oras">Orașul</label>
-                <select name="oras" id="oras">
-                    <option value="1">Bacău</option>
-                    <option value="2">Buzău</option>
-                    <option value="3">Dolj</option>
-                    <option value="4">Iași</option>
-                </select>
+        <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+            <div class="contact-background">
+
             </div>
-            <div>
-                <label for="cursuri">Cursuri</label>
-                <select name="cursuri" id="cursuri" multiple>
-                    <option value="css">CSS</option>
-                    <option value="html">HTML</option>
-                    <option value="js">JavaScript</option>
-                    <option value="vue">Vue.js</option>
-                    <option value="node">Node.js</option>
-                </select>
+            <div class="wrapper wrapper--w680">
+                <div class="card card-4">
+                    <div class="card-body">
+                        <h2 class="title">Registration Form</h2>
+                        <form method="POST">
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">first name</label>
+                                        <input class="input--style-4" type="text" name="first_name">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">last name</label>
+                                        <input class="input--style-4" type="text" name="last_name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Birthday</label>
+                                        <div class="input-group-icon">
+                                            <input class="input--style-4 js-datepicker" type="text" name="birthday">
+                                            <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Gender</label>
+                                        <div class="p-t-10">
+                                            <label class="radio-container m-r-45">Male
+                                                <input type="radio" checked="checked" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="radio-container">Female
+                                                <input type="radio" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Email</label>
+                                        <input class="input--style-4" type="email" name="email">
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Phone Number</label>
+                                        <input class="input--style-4" type="text" name="phone">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label class="label">Subject</label>
+                                <div class="rs-select2 js-select-simple select--no-search">
+                                    <select name="subject">
+                                        <option disabled="disabled" selected="selected">Choose option</option>
+                                        <option>Subject 1</option>
+                                        <option>Subject 2</option>
+                                        <option>Subject 3</option>
+                                    </select>
+                                    <div class="select-dropdown"></div>
+                                </div>
+                            </div>
+                            <div class="p-t-15">
+                                <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div>
-                <label for="mesaj">Mesaj</label>
-                <textarea name="mesaj" id="mesaj"></textarea>
+        </div>
+        
+                    </div>
+                </div>
             </div>
-            <div>
-                <fieldset>
-                    <legend>Program cursuri</legend>
-                    <input type="radio" name="program" id="dimineata" value="dimineata">
-                    <label for="dimineata">Dimineața</label>
-                    <input type="radio" name="program" id="pranz" value="pranz" checked>
-                    <label for="pranz">Prânz</label>
-                    <input type="radio" name="program" id="seara" value="seara">
-                    <label for="seara">Seara</label>
-                </fieldset>
-            </div>
-        </form>
+        </div>
      </main>
-     <footer></footer>
     </body>
 
     </html>
